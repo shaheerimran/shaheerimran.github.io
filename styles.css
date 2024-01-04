@@ -1,0 +1,179 @@
+#home {
+    padding-bottom: 50px;
+}
+
+#about {
+    padding-bottom: 50px;
+}
+
+#projects {
+    padding-bottom: 50px;
+}
+
+#title_page{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#title_text{
+    flex-grow: 1;
+    padding: 20px;
+    padding-top:150px;
+    padding-left:150px;
+    margin:20px;
+}
+
+#title_bio_intro{
+    color : black;
+    line-height: 1.0;
+    display: inline;
+}
+
+#title_bio_name_1{
+    line-height: 1.0;
+    display: inline;
+    background-image: linear-gradient(#7FA184, #AFDFA4);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+#title_bio_name_1:hover span{
+    display: none;
+}
+
+#title_bio_name_1:hover:before {
+    content: "شهير"
+  }
+
+
+#title_bio_name_2{
+    padding-left:5px;
+    color : black;
+    line-height: 1.0;
+    display: inline;
+}
+
+#title_bio_comma{
+    color : black;
+    line-height: 1.0;
+    display: inline;
+}
+/*
+#title_container{
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+    height: 80pt;
+    top:0;
+    bottom: 0;
+    filter: url(#threshold) blur(0.6px)
+}
+
+#text1, #text2{
+    position: absolute;
+    width: 100%;
+    display: inline; 
+    font-family: sans-serif;
+    font-size: 80pt;
+     
+    text-align : center;
+    user-select: none;
+}
+*/
+
+#button{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    
+}
+
+#title_buttons{
+    flex-grow: 1;
+    padding: 20px;
+    padding-top:250px;
+    padding-right:100px;
+    margin:20px;
+}
+
+#button_list{
+    list-style: none;
+    /*
+    padding: 0;
+    margin: 0;
+    */
+    padding-top:250px;
+    padding-right:100px;
+}
+
+a{
+    color: black;
+}
+
+#list_link {
+    margin-bottom: 10px;
+}
+
+#about_view{
+    margin: 0;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+#about_text{
+    padding: 20px;
+    padding-top:150px;
+    padding-left:150px;
+    margin:20px;
+}
+
+#about_basic{
+    color : black;
+    line-height: 1.0;
+    display: inline;
+}
+
+#about_imp{
+    line-height: 1.0;
+    display: inline;
+    background-image: linear-gradient(#7FA184, #AFDFA4);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+#projects_view{
+    flex-grow: 1;
+    padding: 20px;
+    padding-top:150px;
+    padding-left:150px;
+    margin:20px;
+}
+
+#project_cards{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#card{
+    display: inline;
+}
+
+.btn_view{
+    background-color:#7FA184;
+}
+
+.card_proj{
+    display: inline;
+}
